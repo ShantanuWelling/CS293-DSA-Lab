@@ -1,0 +1,3 @@
+BST, DFS and number of nodes visited once/twice depend on the choice of the source node
+Suppose w was visited in DFS of v, then v is the current parent of w and while performing DFS on adjacent nodes of w, skipped v because it is the parent of w
+If v was not skipped then every node would be visited twice by default, once during its DFS and once during the DFS of its adjacent node

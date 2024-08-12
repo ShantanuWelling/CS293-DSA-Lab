@@ -1,0 +1,4 @@
+Source and destination station names exist in the database
+Atleast 1 train exists for a station (there are no isolated vertices in the graph)
+Train with a particular journey code travels only in 1 direction (doesn't go on reverse path)
+All journey routes are simple paths (no vertices are repeated in the path)

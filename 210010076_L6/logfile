@@ -1,0 +1,122 @@
+Executing "Read commands from file" 
+Success
+Executing "Enter/delete station name"
+Executing "Enter station name"
+Successfully inserted "JUNCTION" (for station name "THANE JUNCTION") in trie
+Successfully inserted "THANE" (for station name "THANE JUNCTION") in trie
+Success
+Executing "Enter/delete station name"
+Executing "Enter station name"
+Successfully inserted "CANTONMENT" (for station name "PUNE CANTONMENT") in trie
+Successfully inserted "PUNE" (for station name "PUNE CANTONMENT") in trie
+Success
+Executing "Enter/delete journey code"
+Executing "Enter journey code"
+Success
+Executing "Enter/delete station name"
+Executing "Enter station name"
+Successfully inserted "CENTRAL" (for station name "MUMBAI CENTRAL") in trie
+Successfully inserted "MUMBAI" (for station name "MUMBAI CENTRAL") in trie
+Success
+Executing "Enter/delete station name"
+Executing "Enter station name"
+Successfully inserted "MUMBAI" (for station name "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS MUMBAI") in trie
+Successfully inserted "TERMINUS" (for station name "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS MUMBAI") in trie
+Successfully inserted "MAHARAJ" (for station name "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS MUMBAI") in trie
+Successfully inserted "SHIVAJI" (for station name "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS MUMBAI") in trie
+Successfully inserted "CHHATRAPATI" (for station name "CHHATRAPATI SHIVAJI MAHARAJ TERMINUS MUMBAI") in trie
+Success
+Executing "Enter/delete station name"
+Executing "Enter station name"
+Successfully inserted "MUMBAI" (for station name "LOKMANYA TILAK TERMINUS MUMBAI") in trie
+Successfully inserted "TERMINUS" (for station name "LOKMANYA TILAK TERMINUS MUMBAI") in trie
+Successfully inserted "TILAK" (for station name "LOKMANYA TILAK TERMINUS MUMBAI") in trie
+Successfully inserted "LOKMANYA" (for station name "LOKMANYA TILAK TERMINUS MUMBAI") in trie
+Success
+Executing "Enter/delete journey code"
+Executing "Enter journey code"
+Success
+Executing "Enter/delete journey code"
+Executing "Enter journey code"
+Success
+Executing "Exit reading commands from file" 
+Success
+Executing "Exit admin user"
+Executing "Read commands from file" 
+Success
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: THANE JUNCTION
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Good journey. Will travel again!
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: THANE JUNCTION
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Terrible journey. Will not travel again by this train!
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: THANE JUNCTION
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Enjoyable journey with beautiful views ...
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: MUMBAI CENTRAL
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Excellent journey. Well worth the ticket price!
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: MUMBAI CENTRAL
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: So-so journey. Undecided whether to recommend this to others.
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: LOKMANYA TILAK TERMINUS MUMBAI
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Terrible journey. There were rats all over the compartment :-(
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: LOKMANYA TILAK TERMINUS MUMBAI
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Forgettable journey. Very unclean train and rude staff.
+Successfully added review 1
+Executing "Enter/delete review"
+Executing "Enter review"
+Chosen source station: LOKMANYA TILAK TERMINUS MUMBAI
+Chosen destination station: PUNE CANTONMENT
+Journey code matches source and destination pair
+Read review: Hopeless journey. Very unclean train and rude staff.
+Successfully added review 1
+Executing "Exit reading commands from file" 
+Success
+Executing "Find journeys"
+Chosen source station: MUMBAI CENTRAL
+Chosen destination station: PUNE CANTONMENT
+Filtering reviews by keyword journey
+JCode: 300, Rev: [4]: So-so journey. Undecided whether to recommend this to others.
+Found keyword journey
+JCode: 300, Rev: [3]: Excellent journey. Well worth the ticket price!
+Found keyword journey
+Executing "Find journeys"
+Chosen source station: LOKMANYA TILAK TERMINUS MUMBAI
+Chosen destination station: PUNE CANTONMENT
+Filtering reviews by keyword journey
+JCode: 320, Rev: [7]: Hopeless journey. Very unclean train and rude staff.
+Found keyword journey
+JCode: 320, Rev: [6]: Forgettable journey. Very unclean train and rude staff.
+Found keyword journey
+JCode: 320, Rev: [5]: Terrible journey. There were rats all over the compartment :-(
+Found keyword journey

@@ -1,0 +1,5 @@
+Ordering stations according to departure time.
+Station with departure time -1 (i.e. the final stop) are placed before others.
+Used a constant 5-6 units extra storage for maintaining iterators for quicksort and pivots.
+Assumed that there cannot be two or more trains at a station on the same day and same departure time.
+If two or more trains at a station are there on same day and time, it still sorts them according to time and places them according to the order of precedence in which they were inserted into the planner.

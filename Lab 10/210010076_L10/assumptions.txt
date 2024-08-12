@@ -1,0 +1,7 @@
+Assuming simple paths for a unique journey code (no cycles)
+Assuming same journey even if day is different but journeycode is same and not including that as a stop
+A journey between 2 adjacent stations won't be longer than 24 hours
+Input for maxTransitTime is hours (integer) and of the format HH. If input is 17 then it signifies 1700 is the maxtransittime.
+Printing only departure time & day, journey code  from source station for direct journey
+Printing departure & arrival time & days, journeycodes for all stops of an indirect journey except arrival time at source station as it is irrelevant to the user
+Printing transit time in HHMM format where 815 represent transit time of 8 hours 15 mins.
